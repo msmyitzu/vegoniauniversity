@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGONIA University</title>
+    <link rel="icon" href="./assets/img/fav/favicon1.png" type="image/png" sizes="16x16">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <!-- bootstrap  css1 js1 -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- fontawesome css1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <!-- Start Stick Note -->
+    <div class="sticknotes">
+        <a href="#faq" class="aboutus">About</a>
+        <a href="#faq" class="pages">Pages</a>
+        <a href="#locations" class="news">News</a>
+        <a href="#subscribe" class="contact">Contact</a>
+
+    </div>
+
+    <!-- End Stick Note -->
+
+    <!-- Start login box -->
+    <button id="open-btn" class="open-btn"><i class="fas fa-user"></i></button>
+    <div id="form-popup" class="form-popup">
+
+        <form class="form-container" action="" method="">
+            <h6>Login Here!!</h6>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="" placeholder="Enter Email" autocomplete="off" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="" placeholder="Enter Password" autocomplete="off" required>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-info btn-sm rounded-0 mb-2">Login</button>
+                <button type="button" id="formclose-btn" class="btn btn-danger btn-sm rounded-0 mb-2">Close</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- End Login box -->
+
+    <!-- Start Header Section  -->
+    <header>
+        <!-- Start Header Intro  -->
+        <div class="headerintros visiblelgs">
+            <div class="container infos">
+                <table>
+                    <tr>
+                        <td><i class="fas fa-phone"></i></td>
+                        <td>+95942204222</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr class="headericons">
+                        <td>FollowUs</td>
+                        <td><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></td>
+                        <td><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></td>
+                        <td><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- End Header Intro  -->
+        <!-- Start Nav Bar  -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <a href="index.html" class="navbar-brand mx-3">
+                <img src="./assets/img/fav/favicon1.png" width="70px" alt="favicon1">
+                <span class="text-uppercase h2 mx-2">Vegonia <span class="h3">University</span></span>
+            </a>
+            <button class="navbar-toggler  navbuttons" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <div class="bg-dark lines1"></div>
+                <div class="bg-dark lines2"></div>
+                <div class="bg-dark lines3"></div>
+            
+            </button>
+            <div id="mynav" class="navbar-collapse collapse justify-content-end text-uppercase fw-bolder mx-3">
+                <ul class="navbar-nav menustyles">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#aboutuss" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#faculties" class="nav-link">Shortcode </a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">Pages</a></li>
+                    <li class="nav-item"><a href="#locations" class="nav-link">News</a></li>
+                    <li class="nav-item"><a href="#subscribe" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End Nav Bar  -->
+        <!-- Start Banner -->
+        <div class=" text-light text-md-end text-center banners">
+            <h4 class="display-6 bannerheaders">VEGONIA University</h4>
+            <p class="lead bannerparagraphs">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a href="javascript:void(0);" class="btn btn-outline-light  btn-lg banner-btn rounded-0">View More</a>
+        </div>
+        <!-- End Banner -->
+        <img src="./assets/img/etc/studentgroup2.png" class="d-none d-lg-block studentgroups" alt="studentgroup2">
+        <img src="./assets/img/etc/wave1.png" class="waves" alt="wave1">
+    </header>
+
+    <!-- End Header Section  -->
+    <!-- Start Students Counter Section  -->
+    <section class="py-3 counters">
+        <div class="container">
+            <div class="counteritems">
+                <i class="fas fa-user fa-3x"></i>
+                <div class="countervalues" data-target="95000"></div>
+                <h5>FOREIGN FOLLOWERS</h5>
+            </div>
+
+            <div class="counteritems">
+                <i class="fas fa-book-reader fa-3x"></i>
+                <div class="countervalues" data-target="20000"></div>
+                <h5>CLASSES COMPLETE</h5>
+            </div>
+
+            <div class="counteritems">
+                <i class="fas fa-user-tie fa-3x"></i>
+                <div class="countervalues" data-target="600"></div>
+                <h5>CERTIFIED TEACHERS</h5>
+            </div>
+
+            <div class="counteritems">
+                <i class="fas fa-trophy fa-3x"></i>
+                <div class="countervalues" data-target="350000"></div>
+                <h5>STUDENTS ENROLLED</h5>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- End Students Counter Section  -->
+
+    <!-- Start About Us Section  -->
+    <section id="aboutuss" class="py-5 aboutuss">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 text-center text-light">
+                    <h3 class="text-uppercase">get the coaching training !!!</h3>
+                    <ul>
+                        <li>Almost Free For Data Land Members.</li>
+                        <li>Only 3 steps register with your DLT Students ID. </li>
+                        <li>35 USD Cash Back for 5 Subjects.</li>
+                    </ul>
+                    <p class="small">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat at praesentium vitae aut nesciunt? Ab odio repellat sed tempore non aliquid. Recusandae.
+                    </p>
+                    <a href="javascript:void(0);" class="btn btn-primary rounded-0">Read More</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- End About Us Section  -->
+
+    <!-- Start faculty Section  -->
+
+    <section id="faculties" class="py-2 faculties">
+        <div class="container text-light">
+            <!-- start title  -->
+            <div class="row text-center">
+                <h4>Faculty Member</h4>
+            </div>
+        </div>
+        <!-- End title  -->
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="flip-cards">
+                    <div class="flip-card-inners">
+                        <div class="flip-card-fronts"><img src="./assets/img/users/teacher1.jpg" alt="teacher1"></div>
+                        <div class="flip-card-backs text-light py-3">
+                            <h3>Mr.Anton</h3>
+                            <p>Russian Teacher</p>
+                            <p class="small">Lorem Ipsum is simple dummy of tht printing and typesettings of projects.</p>
+
+                            <div class="socialicons">
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-cards">
+                    <div class="flip-card-inners">
+                        <div class="flip-card-fronts"><img src="./assets/img/users/teacher2.jpg" alt="teacher2"></div>
+                        <div class="flip-card-backs text-light py-3">
+                            <h3>Mr.Sai</h3>
+                            <p>Financial Teacher</p>
+                            <p class="small">Lorem Ipsum is simple dummy of tht printing and typesettings of projects.</p>
+
+                            <div class="socialicons">
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-cards">
+                    <div class="flip-card-inners">
+                        <div class="flip-card-fronts"><img src="./assets/img/users/teacher3.jpg" alt="teacher3"></div>
+                        <div class="flip-card-backs text-light py-3">
+                            <h3>Ms.July</h3>
+                            <p>English Teacher</p>
+                            <p class="small">Lorem Ipsum is simple dummy of tht printing and typesettings of projects.</p>
+
+                            <div class="socialicons">
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-cards">
+                    <div class="flip-card-inners">
+                        <div class="flip-card-fronts"><img src="./assets/img/users/teacher4.jpg" alt="teacher4"></div>
+                        <div class="flip-card-backs text-light py-3">
+                            <h3>Ms.Moe Moe</h3>
+                            <p>Architech Engineering Teacher</p>
+                            <p class="small">Lorem Ipsum is simple dummy of tht printing and typesettings of projects.</p>
+
+                            <div class="socialicons">
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- End Faculty Section  -->
+
+    <!-- Start Pricing Section  -->
+    <section id="pricings" class="py-5">
+        <div class="container">
+            <!-- start title  -->
+            <div class="row text-center">
+                <div class="col mb-3">
+                    <h4>Loved By Over 25,000 Students</h4>
+                    <p class="small">What our students say about us.</p>
+                </div>
+            </div>
+
+            <!-- end title  -->
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+
+                    <div class="price-headers">
+                        <h3>Associate</h3>
+                        <i>2 years/per month</i>
+                    </div>
+                    <h4 class="prices">$30</h4>
+
+                    <ul class="list-unstyled price-items">
+                        <li>Basic Grammer</li>
+                        <li>Strategic Management</li>
+                        <li>Critical Reading</li>
+                        <li>Journalism</li>
+                        <li>Biotechnology</li>
+                    </ul>
+                    <a href="javascript:void(0);  " class="btn btn-primary rounded-0">Apply Now</a>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3  pricingboxes">
+
+                    <div class="price-headers">
+                        <h3>Bechelor's</h3>
+                        <i>4 years/per month</i>
+                    </div>
+                    <h4 class="prices">$45</h4>
+
+                    <ul class="list-unstyled price-items">
+                        <li>Methematics for teaching</li>
+                        <li>Strategic Management</li>
+                        <li>Journalism</li>
+                        <li>Finacial Markets</li>
+                        <li>Biotechnology</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="btn btn-primary rounded-0">Apply Now</a>
+                </div>
+
+
+                <div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+
+                    <div class="price-headers">
+                        <h3>Master's</h3>
+                        <i>3 years/per month</i>
+                    </div>
+                    <h4 class="prices">$70</h4>
+
+                    <ul class="list-unstyled price-items">
+                        <li>Journalism</li>
+                        <li>Strategic Management</li>
+                        <li>Biotechnology</li>
+                        <li>Mathematics for teaching</li>
+                        <li>Basic Grammer</li>
+                    </ul>
+                    <a href="javascript:void(0);  " class="btn btn-primary rounded-0">Apply Now</a>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+
+                    <div class="price-headers">
+                        <h3>Doctoral</h3>
+                        <i>3 years/per month</i>
+                    </div>
+                    <h4 class="prices">$99</h4>
+
+                    <ul class="list-unstyled price-items">
+                        <li>Journalism</li>
+                        <li>Critical Reading</li>
+                        <li>Biotechnology</li>
+                        <li>Stategic Management</li>
+                        <li>Biotechnology</li>
+                    </ul>
+                    <a href="javascript:void(0);  " class="btn btn-primary rounded-0">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pricing Section  -->
+    <section id="locations" class="py-5">
+        <div class="container">
+            <!-- start title -->
+            <div class="row text-center">
+                <div class="col mb-3">
+                    <h4>Meet all our locations</h4>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui dolorum cum, error dolor eligendi consequuntu!</p>
+                </div>
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/01.jpg" alt="01">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/02.jpg" alt="02">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/03.jpg" alt="03">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/04.jpg" alt="04">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/05.jpg" alt="05">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/06.jpg" alt="06">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/07.jpg" alt="07">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-3">
+                    <div class="libcards">
+                        <img src="./assets/img/post/08.jpg" alt="08">
+                        <div class="libcontents">
+                            <div>
+                                <h5>Sample Location</h5>
+                                <i class="small">Our uni location </i>
+                            </div>
+                            <a href="javascript:void(0);" class="btn-infos">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Location Area Section  -->
+
+    <!-- End Location Area Section  -->
+
+    <!-- Start FAA Section  -->
+    <section id="faq" class="p-5">
+        <div class="container-fluid">
+
+            <!-- start title  -->
+            <div class="row text-center">
+                <div class="col">
+                    <h4>Frequently asked questions</h4>
+                    <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing! </p>
+                </div>
+            </div>
+            <!-- end title -->
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseone">How do i apply?</button>
+                            </div>
+                            <div id="collapseone" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Aut temporibus nobis minus ut. Nesciunt nihil facere minus neque! Id voluptatem vel vero non eos neque iure soluta dolor laborum error!Aut temporibus
+                                    nobis minus ut. Nesciunt nihil facere minus neque! Id voluptatem.Aut temporibus nobis minus ut. Nesciunt nihil facere minus neque!
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo">What are entry requrment?</button>
+                            </div>
+                            <div id="collapsetwo" class="accordion-collapse collapse ">
+                                <div class="accordion-body">
+                                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Aut temporibus nobis minus ut. Nesciunt nihil facere minus neque! Id voluptatem vel vero non eos neque iure soluta dolor laborum error!Aut temporibus
+                                    nobis minus ut. Nesciunt nihil facere minus neque! Id voluptatem.Aut temporibus nobis minus ut. Nesciunt nihil facere minus neque!
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsethree">What should include in my personal statement</button>
+                            </div>
+                            <div id="collapsethree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Aut temporibus nobis minus ut. Nesciunt nihil facere minus neque! Id voluptatem vel vero non eos neque iure soluta dolor laborum error!Aut temporibus
+                                    nobis minus ut. Nesciunt nihil facere minus neque! Id voluptatem.Aut temporibus nobis minus ut. Nesciunt nihil facere minus neque!
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="./assets/img/etc/studentgroup.png" alt="studentgroup" width="400px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End FQA Section  -->
+
+    <!-- Start Features Section -->
+    <section id="features" class="text-light py-5 features">
+        <div class="container">
+
+            <!-- start title  -->
+            <div class="row text-center">
+                <div class="col">
+                    <h4>Check Out This Awesome Features</h4>
+                    <p class="small">Designed to get the highest rate of interaction. </p>
+                </div>
+            </div>
+            <!-- end title -->
+
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/1.png" alt="1">
+                    <h5>USER FOCUS COURSES</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/2.png" alt="2">
+                    <h5>CLASSES ORIQANIZATION</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/3.png" alt="3">
+                    <h5>ONLINE CERTIFICATE TESTS</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/4.png" alt="4">
+                    <h5>GET THE NEWS BY EMAIL</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/5.png" alt="5">
+                    <h5>STUDY AT YOUR TIME</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/6.png" alt="6">
+                    <h5>VIDEO TUTORIALS</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/7.png" alt="7">
+                    <h5>COMMUNUTY SUPPORT</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12 feas">
+                    <img src="./assets/img/icon/8.png" alt="8">
+                    <h5>FROM ANYWHERE YOU WANT</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quia fugit quaerat possimus ratione, qui nisi illum.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End Feactures Section -->
+
+    <!-- Start Rating Section  -->
+    <section id="rating" class="text-center py-3">
+        <div class="container">
+
+            <!-- start title  -->
+            <div class="row text-center">
+                <div class="col">
+                    <h4>Student graduate ready to work</h4>
+                    <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div id="piechart"></div>
+                </div>
+
+                <div class="col-md-8 col-sm-12">
+                    <span class="headings">Students Rating</span>
+                    <i class="fas fa-star fills"></i>
+                    <i class="fas fa-star fills"></i>
+                    <i class="fas fa-star fills"></i>
+                    <i class="fas fa-star fills"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Rating average based on 5.7k reviews.</p>
+                    <hr style="border:2px solid #999" />
+
+                    <div class="rows">
+                        <div class="lefts">
+                            <div>5 Stars</div>
+                        </div>
+                        <div class="middles">
+                            <div class="bars-container">
+                                <div class="bars-1"></div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div>320</div>
+                        </div>
+
+                        <div class="lefts">
+                            <div>4 Stars</div>
+                        </div>
+                        <div class="middles">
+                            <div class="bars-container">
+                                <div class="bars-2"></div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div>165</div>
+                        </div>
+
+                        <div class="lefts">
+                            <div>3 Stars</div>
+                        </div>
+                        <div class="middles">
+                            <div class="bars-container">
+                                <div class="bars-3"></div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div>38</div>
+                        </div>
+
+                        <div class="lefts">
+                            <div>2 Stars</div>
+                        </div>
+                        <div class="middles">
+                            <div class="bars-container">
+                                <div class="bars-4"></div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div>11</div>
+                        </div>
+
+                        <div class="lefts">
+                            <div>1 Stars</div>
+                        </div>
+                        <div class="middles">
+                            <div class="bars-container">
+                                <div class="bars-5"></div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div>47</div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Rating Section  -->
+
+    <!-- Start Subscribe Section  -->
+
+    <section id="subscribe" class="p5 subscribes">
+        <dvi class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12">
+
+                    <h5 class="display-4 text-white">Register to our university</h5>
+
+                    <form action="" method="" class="forms">
+
+                        <div class="input-group mb-2">
+                            <i class="fas fa-user input-group-text"></i>
+                            <input type="text" name="username" id="username" class="form-control" placeholder="Username">
+                        </div>
+
+                        <div class="input-group mb-2">
+                            <i class="fas fa-envelope input-group-text"></i>
+                            <input type="email" name="regemail" id="regemail" class="form-control" placeholder="Email">
+
+                        </div>
+
+                        <div class="input-group mb-2">
+                            <i class="fas fa-key input-group-text"></i>
+                            <input type="password " name="regpassword" id="regpassword" class="form-control" placeholder="Password">
+                        </div>
+
+                        <div class="form-check form-switch">
+                            <input type="checkbox" name="accept" id="accept" class="form-check-input">
+                            <label for="accept">I agree to get push notify.</label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary fw-bold text-uppercase rounded-0 p-2">Register Now </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-6 col-md-12 squareares">
+
+                    <div class="sqboxes">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </dvi>
+    </section>
+    <!-- End Subscribe Section  -->
+
+    <!-- Start Footer Section  -->
+    <footer class="bg-dark px-5">
+        <div class="container-fluid">
+            <div class="row text-light py-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="mb-3">Information</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:void(0);" class="footerlinks">Home</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">About Us</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Short Code</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Structure</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Pages</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">News</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="mb-3">Student Help</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:void(0);" class="footerlinks">FAQ</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Search Course
+                        </a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Latest Information</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Specialist info</a></li>
+                    </ul>
+                    <div class="footersocialicons">
+                        <a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="javascript:void(0);" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="mb-3">Instagram</h6>
+                    <div class="instagram">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);"><img src="./assets/img/users/instagram1.jpg" alt="instagram1" /> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);"><img src="./assets/img/users/instagram2.jpg" alt="instagram2" /> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);"><img src="./assets/img/users/instagram3.jpg" alt="instagram3" /> </a>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);"><img src="./assets/img/users/instagram4.jpg" alt="instagram4" /> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);"><img src="./assets/img/users/instagram5.jpg" alt="instagram5" /> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript:void(0);"><img src="./assets/img/users/instagram6.jpg" alt="instagram6" /> </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="mb-3">We Accepted</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:void(0);" class="footerlinks">We Transfer</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">Online Payments</a></li>
+                        <li><a href="javascript:void(0);" class="footerlinks">VIA Payments By Embassy</a></li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);"><img src="./assets/img/payment/visacard.png" alt=visacard" /> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);"><img src="./assets/img/payment/mastercard.png" alt="mastercard" /> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);"><img src="./assets/img/payment/americancard.png" alt="americancard" /> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="javascript:void(0);"><img src="./assets/img/payment/descoverycard.png" alt="discoverycard" /> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- End Footer Section  -->
+
+    <!-- Start Footer Section  -->
+    <footer class="bg-dark px-5">
+
+        <div class="container-fluid">
+
+            <div class="container">
+                <div class="text-light d-flex justify-content-between border-top pt-4">
+                    <p>Copyright &copy;<span id="getyear"></span> <a href="#" class="text-danger">Pro</a> All rights reserved.</p>
+
+                    <ul class="list list-unstyled">
+                        <li><a href="#"><i class="fas fa-angle-up backtotop-btn"></i></a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer Section  -->
+
+
+
+    <!-- bootstrap  css1 js1 -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- jquery js 1 -->
+    <script src="./assets/libs/jquery/jquery-3.6.1.min.js" type="text/javascript"></script>
+
+    <!-- goggle chart api js1 -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- custom js  -->
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>
